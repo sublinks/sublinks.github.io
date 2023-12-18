@@ -8,7 +8,8 @@ url: "https://sublinks.org"
 github:
   repository_name: sublinks
   project_tagline: >-
-    Link Aggregation Social Network in the Fediverse
+    A Link Aggregation Social Network in the Fediverse.
+  is_user_page: false
   is_project_page: true
   repository_url: https://github.com/sublinks
   repository_nwo: https://github.com/sublinks
