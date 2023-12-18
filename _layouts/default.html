@@ -15,11 +15,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
+
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <p>{{ site.github.project_tagline }}</p>
 
@@ -30,6 +30,12 @@
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
+
+        <ul class="downloads">
+          <li><a href="{{ "/" | absolute_url }}">Read <strong>About</strong></a></li>
+          <li><a href="{{ "/docs" | relative_url }}">Read <strong>Docs</strong></a></li>
+          <li><a href="https://demo.sublinks.org" target="_blank">View <strong>Demo</strong></a></li>
+        </ul>
 
         {% if site.show_downloads %}
         <ul class="downloads">
