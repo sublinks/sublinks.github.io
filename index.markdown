@@ -5,7 +5,7 @@
 ---
 # About
 
-Sublinks, crafted using Java Spring Boot, stands as a state-of-the-art link aggregation and microblogging platform, reminiscent yet advanced compared to Lemmy & Kbin.
+Sublinks, crafted using Java Spring Boot, stands as a state-of-the-art link aggregation platform, reminiscent yet advanced compared to Lemmy & Kbin.
 
 It features a Lemmy compatible API, allowing for seamless integration and migration for existing Lemmy users.
 
